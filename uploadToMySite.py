@@ -4,8 +4,8 @@ import json  # For handling JSON data
 import os  # For interacting with the file system
 
 # Configuration variables
-CLIENT_ID = "c437c758-941f-4100-996c-b55ab00f03a5"  # Azure AD app client ID
-FILE_PATH = "C:\\Users\\dylanstetts\\Downloads\\Scripts\\Python\\uploadSession\\testFileCreation.txt"  # Path to the file to be uploaded
+CLIENT_ID = "client-id"  # Azure AD app client ID
+FILE_PATH = "C:\\Your\\filepath\\Here\\Scripts\\Python\\uploadSession\\testFileCreation.txt"  # Path to the file to be uploaded
 FILE_NAME = os.path.basename(FILE_PATH)  # Extracts the file name from the full path
 AUTHORITY = "https://login.microsoftonline.com/common"  # Common authority endpoint for authentication
 SCOPES = ["https://graph.microsoft.com/Files.ReadWrite"]  # Permissions required to read/write files in OneDrive
